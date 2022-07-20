@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-mediu</title>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <h4>Exercitiu 11 </h4>
+    <h5> Se citesc parametrii unei ecuatii de gradul 2( ax2 + bx + c = 0). Sa se afiseze solutia x.
+        Informatii aici: https://www.mathsisfun.com/quadratic-equation-solver.html
+        Exemple:
+        Se citeste a: 2, b: 1, c: 2. Se afiseaza “Ecuatia nu are solutii reale”
+        Se citeste a: 2, b: 4, c: 2. Se afiseaza “Solutie: X=-1”
+        Se citeste a: 1, b: 1, c: -6. Se afiseaza “Solutii: X1=-3, X2=2”
+        Se citeste a: 0, b: 0, c:0. Se afiseaza “Solutie: Multimea Reala” </h5>
+
+    a: <input type="text" id="a"><br/>
+    b: <input type="text" id="b"><br/>
+    c: <input type="text" id="c"><br/>
+    <input type="button" value="calculeaza" onclick="solve()">
+    <div id="rez"></div>
+    
+
+    <hr>
+
+    <h4>Exercitiu 12 </h4>
+    <h5>Se citeste un numar intreg pozitiv. Sa se afiseze toate numerele pozitive nenule mai mici
+        sau egale decat valoarea citita, in ordine crescatoare
+        Exemple:
+        Se citeste 5. Se afiseaza 1 2 3 4 5</h5>
+
+
+     nr: <input type="text" id="nr">
+         <input type="button" value="Afiseaza" onclick="crescator()">
+         <div id="rez1"> </div>
+
+    <hr>
+
+    <h4>Exercitiu 13 </h4>
+    <h5> Se citeste un numar intreg pozitiv. Sa se afiseze toate numerele pozitive(inclusiv 0),
+        strict mai mici valoarea citita, in ordine descrescatoare
+        Exemple:
+        Se citeste 5. Se afiseaza 4 3 2 1 0 </h5>
+
+        <input type="text" id="no1">
+        <input type="button" value="Afiseaza" onclick="descrescator()">
+        <div id="rez2"> </div>
+
+        <hr>
+
+        <h4>Exercitiu 14 </h4>
+
+        <h5> Se citesc 2 valori in ordine crescatoare. Sa se afiseze toate numerele dintre cele 2 valori
+            citite. Daca nu exista valori, de afisat, se afiseaza un mesaj de notificare.
+            Exemple:
+            Se citeste -2 si 4. Se afiseaza -1 0 1 2 3
+            Se citeste 3 si 4. Se afiseaza mesajul “Nu exista nici o valoare de afisat”
+            Se citeste 4 si 4. Se afiseaza mesajul “Nu exista nici o valoare de afisat”</h5>
+
+            <input type="text" id="no2"><br/>
+            <input type="text" id="no3"><br/>
+            <input type="button" value="afiseaza" onclick="valori()">
+            <div id="rez3"> </div>
+
+            <hr>
+
+            <h4>Exercitiu 15 </h4>
+
+            <h5> Se citesc 2 valori in ordine crescatoare. Sa se afiseze toate numerele care sunt mai mari
+                sau egale cu primul numar si mai mici sau egale cu al doilea numar.
+                Exemple:
+                Se citeste -2 si 4. Se afiseaza -2 -1 0 1 2 3 4
+                Se citeste 3 si 4. Se afiseaza 3 4
+                Se citeste 4 si 4. Se afiseaza 4 </h5>
+
+    
+</body>
+</html>
+
+
